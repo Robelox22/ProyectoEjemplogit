@@ -30,10 +30,10 @@ Para ejecutar el programa, sigue estos pasos:
 
 
 ## Notas sobre el archivo .gitignore
-# Archivos ignorados
+### Archivos ignorados
 La instrucción *.log dentro de .gitignore le dice a Git que ignore todos los archivos con extensión .log. Esto es útil para omitir archivos de registro o de depuración que suelen ser temporales y que, en un proyecto real, solo ocuparían espacio innecesario en el repositorio.
 
-# Verificación del .gitignore
+### Verificación del .gitignore
 Para verificar que Git esté ignorando correctamente el archivo debug.log, puedes utilizar el comando git status, que mostrará los archivos rastreados y no rastreados. Si debug.log no aparece en la lista de archivos no rastreados, significa que el .gitignore está funcionando correctamente. Además, al subir el proyecto a GitHub, este archivo no debería aparecer, confirmando que se ha ignorado en el control de versiones.
 
 
